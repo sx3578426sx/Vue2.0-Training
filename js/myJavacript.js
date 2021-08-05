@@ -14,3 +14,11 @@ var changeCoin = new Vue({
         }
     }
 });
+
+var vueIf = new Vue({
+    el:'#app',
+    data: {
+      message : 'Hello World！',
+      loading: false
+    }
+  })
